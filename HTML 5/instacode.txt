@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./insta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="puradiv">
+        <div id="leftdiv">
+            <img src="./Images/screenshot3.png" alt="">
+        </div>
+        <div id="rightdiv">
+    <div id="div1">
+    <form action="" id="form">
+        <fieldset>
+            <center><h1>Instagram</h1>
+ 
+                <input type="text" placeholder="Phone number,username, or email"><br><br>
+                <input type="password" placeholder="password"><br><br>
+                <button id="button">log in</button><br><br>
+                <p>-------------OR------------</p>
+            </center>
+            <center>
+                <a href id="Facebook"><i class="fa-brands fa-square-facebook"></i>  Login with Facebook</a> <br> <br>
+                <a href="" id="forgetPass">Forget password?</a>
+            </center>
+   
+        </fieldset>
+    </form>
+</div>
+<div id="div2">
+    <form action="">
+        <fieldset>
+             <p>Don't have an account? <a href="" id="signbutton">Sign up</a></p>
+         </fieldset>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+================================================================
+================================================================
+================================================================
+                            css
+
+
+#form{
+    height: 1500px;
+    width: 250px;
+}
+#button{
+    width: 180px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+#Facebook
+{
+    color: blue;
+}
+#div1{
+    height: 340px;
+}
+#div2{
+    width: 250px;
+    height: 80px;
+}
+a{
+    text-decoration: none;
+
+}
+#forgetPass{
+    font-size: small;
+}
+#signbutton{
+    color: rgba(12, 103, 195, 0.96);
+}
+#rightdiv
+{position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+#leftdiv{
+    margin-left: 350px;
+    margin-top: 100px;
+    position: absolute;
+}
+img{
+    border:  5px solid black;
+    border-radius: 30px;
+    height: 420px;
+    background-color: black;
+}                            
+
+
+
+
+
