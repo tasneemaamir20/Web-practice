@@ -1,0 +1,17 @@
+nav{
+    
+    background-color: rgba(9, 9, 114, 0.665);
+}
+div{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    
+}
+div:hover{
+    color: white;
+    background-color:rgba(9, 9, 81, 0.46);
+    
+
+}
