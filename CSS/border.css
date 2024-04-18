@@ -1,0 +1,27 @@
+div{
+    height: 400px;
+    width: 400px;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: red;
+    font-size: x-large;
+    color: brown;
+}
+div:hover{
+    height: 400px;
+    width: 400px;
+    border-width: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(29, 28, 28);
+    font-size: x-large;
+    color: rgb(17, 16, 16);
+    background-color: red;
+}
+
+table
+{
+    border-collapse: collapse;
+
+}

@@ -1,0 +1,82 @@
+
+#text
+{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: solid overline underline dotted;
+    text-shadow: 3px 1px 3px red;
+    font-size: xx-large;
+}
+
+
+#demo{
+    font-size: xx-large;
+    font-weight: 700;
+    font-style: italic;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Pixelify Sans', sans-serif;
+}
+#divcolor
+{
+    border: solid;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+#divcolor:hover{
+    border: solid;
+    height: 200px;
+    width: 600px;
+    background-color: rgb(20, 219, 107);
+} 
+
+
+
+
+
+/* Pseudo element  */
+
+#pseudoclass::first-letter{
+    color: red;
+    font-size: xx-large;
+}
+
+#pseudoclass::first-line{
+    color:blue;
+    
+} 
+#pseudoclass::before{
+    content: "Mr. ";
+}
+#pseudoclass::after{
+    content: " Byyeeeee ";
+}
+#pseudoclass::selection{
+    color: red;
+    background-color: black;
+} 
+
+/* for pseudo element */
+
+/* p:nth-child(odd)
+{
+    color: brown;
+    
+} */
+/* p:nth-child(even)
+{
+    color: aqua;
+} */
+div:last-child()
+{
+    color: red;
+}
+
+
+
+
+
+
+
+

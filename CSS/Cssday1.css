@@ -1,0 +1,84 @@
+
+/* grouping selector */
+/* h1,p,b{
+    color: blueviolet;
+}
+/* class selector */
+/* .demo1{
+    color: aqua;
+}
+/* id selector */
+/* #demo2{
+    color: yellow;
+}
+.bold{
+    color: chocolate;
+}  */
+
+/* #_56{
+    color: chartreuse;
+} */
+/* universal selector */
+/* *{
+    color: brown;
+} */
+
+/* .demo1,bold{
+    color: red;
+} */
+
+
+
+
+
+
+/* for combinator */
+
+/* section~p{
+    color: red;
+}   */
+
+/* section+p{
+    color: red;
+} */
+
+
+/* section p{
+    color: red;
+} */
+
+section>p{
+    color: red;
+}
+
+/* article p{
+    color: red;
+} */
+
+
+
+
+
+
+
+
+
+
+/* attriburte selector */
+
+p[id]
+{
+    color: red;
+}
+img[src]{
+    border-color: red;
+}
+img[alt="ph1"]
+{
+    border: solid;
+}
+
+
+
+
+
