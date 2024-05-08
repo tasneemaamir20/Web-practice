@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Ziad",
+        "Course":"Java Full stack",
+        "Gender":"Male"
+    },
+    {
+        "name":"Rehan",
+        "Course":"BAMS",
+        "Gender":"Male"
+    },
+    {
+        "name":"Tamseel",
+        "Course":"Java Full stack",
+        "Gender":"Female"
+    },
+    {
+        "name":"Shahroze",
+        "Course":"Python Full stack",
+        "Gender":"Male"
+    }
+]
+ 
